@@ -15,12 +15,14 @@ Code for our arXiv paper : Monocular 3D Human Pose Estimation by Generation and 
 ## Running the Code
 
 For training MultiPoseNet, run the following command
-
+```
 python main.py --exp [name of your experiment]
+```
 
 For testing run,
-
+```
 python main.py --exp [name of your experiment] --test --numSamples [num of samples to generate] --load [pre-trained model]
+```
 
 ## Pre-trained model
 
@@ -33,6 +35,3 @@ This repository closely follows una_dinosauria's Tensorflow repo [] and weigq's 
 ## Citing 
 
 If you use this code, please cite our work : 
-
-
-
