@@ -1,5 +1,5 @@
 ## generative_pose
-Code for our arXiv paper : Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking
+Code for our ICCV 19 Paper : Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking, available here : https://arxiv.org/abs/1904.01324
 
 ![Teaser Image](https://github.com/ssfootball04/generative_pose/blob/master/Teaser.png)
 
@@ -10,7 +10,7 @@ Code for our arXiv paper : Monocular 3D Human Pose Estimation by Generation and 
 
 ## Setup
 1. Clone this repository.
-2. Download the data from this [url](https://drive.google.com/file/d/196RLxQKlHowEDmnJw6xLrlv16oi2z15r/view?usp=sharing) and unzip it inside the parent directory. It contains preprocessed ground truth 3D coordinates on Human3.6, and 2D pose + Ordinal Relation detections from our 2DPoseNet/OrdinalNet module. 
+2. Download the data from [Google Drive](https://drive.google.com/file/d/196RLxQKlHowEDmnJw6xLrlv16oi2z15r/view?usp=sharing) and unzip it inside the parent directory. It contains preprocessed ground truth 3D coordinates on Human3.6, and 2D pose + Ordinal Relation detections from our 2DPoseNet/OrdinalNet module. 
 
 ## Running the Code
 
@@ -26,7 +26,7 @@ python main.py --exp [name of your experiment] --test --numSamples [num of sampl
 
 ## Pre-trained model
 
-We provide a pre-trained model at this [url](https://drive.google.com/file/d/1m6bVVms1Q54AbxrG_EE8vvzDVFVQ-JgO/view?usp=sharing). You can reproduce our results by running the test script with this model and generating 200 samples. 
+We provide a pre-trained model on [Google Drive](https://drive.google.com/file/d/1m6bVVms1Q54AbxrG_EE8vvzDVFVQ-JgO/view?usp=sharing). You can reproduce our results by running the test script with this model and generating 200 samples. 
 
 ## Code Layout 
 
@@ -35,3 +35,11 @@ This repository closely follows una_dinosauria's [Tensorflow repo](https://githu
 ## Citing 
 
 If you use this code, please cite our work : 
+```
+@article{sharma2019monocular,
+  title={Monocular 3d human pose estimation by generation and ordinal ranking},
+  author={Sharma, Saurabh and Varigonda, Pavan Teja and Bindal, Prashast and Sharma, Abhishek and Jain, Arjun},
+  journal={arXiv preprint arXiv:1904.01324},
+  year={2019}
+}
+```
