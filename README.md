@@ -4,9 +4,9 @@ Code for our ICCV 19 Paper : Monocular 3D Human Pose Estimation by Generation an
 ![Teaser Image](https://github.com/ssfootball04/generative_pose/blob/master/Teaser.png)
 
 ## Dependencies
-* pytorch 
-* h5py
-* matplotlib
+* pytorch 1.0.0
+* h5py 2.8.0
+* matplotlib 3.0.2
 
 ## Setup
 1. Clone this repository.
