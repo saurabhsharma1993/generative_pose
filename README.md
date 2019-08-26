@@ -1,7 +1,7 @@
 ## generative_pose
 Code for our ICCV 19 Paper : Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking, available here : https://arxiv.org/abs/1904.01324
 
-![Teaser Image](https://github.com/ssfootball04/generative_pose/blob/master/Teaser.png)
+![Teaser Image](https://github.com/ssfootball04/generative_pose/blob/master/teaser.png)
 
 ## Dependencies
 * pytorch 1.0.0
