@@ -36,10 +36,11 @@ This repository closely follows una_dinosauria's [Tensorflow repo](https://githu
 
 If you use this code, please cite our work : 
 ```
-@article{sharma2019monocular,
-  title={Monocular 3d human pose estimation by generation and ordinal ranking},
-  author={Sharma, Saurabh and Varigonda, Pavan Teja and Bindal, Prashast and Sharma, Abhishek and Jain, Arjun},
-  journal={arXiv preprint arXiv:1904.01324},
-  year={2019}
+@InProceedings{Sharma_2019_ICCV,
+author = {Sharma, Saurabh and Varigonda, Pavan Teja and Bindal, Prashast and Sharma, Abhishek and Jain, Arjun},
+title = {Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {October},
+year = {2019}
 }
 ```
